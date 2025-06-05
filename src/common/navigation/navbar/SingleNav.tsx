@@ -5,7 +5,7 @@ type Props = {
 
 const SingleNav = (props: Props) => {
   return (
-    <div className="font-bold font-stretch-100%">{props.title}</div>
+    <div className="font-jakarta">{props.title}</div>
   )
 }
 

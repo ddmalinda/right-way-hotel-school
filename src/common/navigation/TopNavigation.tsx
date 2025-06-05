@@ -11,11 +11,11 @@ let navLink=[
         path:''
     },
     {
-        title:'course Details',
+        title:'Course Details',
         path:''
     },
     {
-        title:'Student detials',
+        title:'Student Detials',
         path:''
     },
     {
@@ -37,14 +37,14 @@ function TopNavigation() {
           <Nav >
             <div className="grid justify-items-center m-4 lg:flex">
             {navLink.map((val, key) => (
-                <div className='mr-10' > 
-                <SingleNav  key={key} title={val.title} />
+                <div className='mr-10' key={key} > 
+                <SingleNav   title={val.title} />
                 </div>
             ))}
           </div>
           </Nav>
             </div>
-          <ApplyNowButton/>
+          <ApplyNowButton styles='px-8 py-2 '/>{/** Apply Button */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
