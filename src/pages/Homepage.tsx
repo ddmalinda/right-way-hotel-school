@@ -1,11 +1,12 @@
-import Footer from '../common/footer/Footer'
-import TopNavigation from '../common/navigation/TopNavigation'
+import CommoneWrapLayout from '../components/common/CommoneWrapLayout'
+
 
 export default function Homepage() {
   return (
     <div>
-      <TopNavigation/>
-      <Footer/>
+     <CommoneWrapLayout>
+adasda
+     </CommoneWrapLayout>
     </div>
   )
 }

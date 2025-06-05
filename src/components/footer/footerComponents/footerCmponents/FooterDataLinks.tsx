@@ -1,4 +1,5 @@
-import SmallTitle from "../../../titles/SmallTitle";
+
+import SmallTitle from '../../../common/titles/SmallTitle';
 
 type Props={
     footerDataLinks: FooterSection[];

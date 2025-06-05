@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import SingleNav from './navbar/SingleNav';
-import ApplyNowButton from '../buttons/ApplyNowButton';
+import ApplyNowButton from '../common/buttons/ApplyNowButton';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 
 let navLink=[

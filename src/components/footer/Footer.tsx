@@ -1,3 +1,4 @@
+import { linkPath } from '../../path/LinkPath'
 import BottomLineFooter from './footerComponents/BottomLineFooter'
 import InfomationFooter from './footerComponents/InfomationFooter'
 
@@ -6,10 +7,10 @@ const footerDataLinks = [
   {
     title: 'Quick Link',
     links: [
-      { link: '/sample', text: 'About Us' },
-      { link: '/sample', text: 'Course Details' },
-      { link: '/sample', text: 'Student Details' },
-      { link: '/sample', text: 'Stuff' },
+      { link: linkPath.aboutUs, text: 'About Us' },
+      { link: linkPath.courseDetails, text: 'Course Details' },
+      { link: linkPath.studentDetails, text: 'Student Details' },
+      { link: linkPath.stuff, text: 'Stuff' },
     ]
   },
 
@@ -29,7 +30,7 @@ const footerDataIcons = [
   title: 'Follow Us',
   links: [
     {
-      link: '/sample',
+      link: linkPath.facebook,
       text: 'facebook',
       icon: [
         { fill: "#039be5", d: "M24 5A19 19 0 1 0 24 43A19 19 0 1 0 24 5Z" },
@@ -37,7 +38,7 @@ const footerDataIcons = [
       ]
     },
     {
-      link: '/sample',
+      link: linkPath.whatsApp,
       text: 'Whatsapp',
       icon: [
         { fill: "#fff", d: "M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z" },
@@ -48,7 +49,7 @@ const footerDataIcons = [
       ]
     },
     {
-      link: '/sample',
+      link: linkPath.linkedIn,
       text: 'Linkedin',
       icon: [
         { fill: "#0288D1", d: "M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z" },

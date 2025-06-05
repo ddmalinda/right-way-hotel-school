@@ -1,4 +1,4 @@
-import SmallTitle from '../../../titles/SmallTitle'
+import SmallTitle from '../../../common/titles/SmallTitle';
 import SingleSvgImage from './SingleSvgImage'
 
 type FillItems={
