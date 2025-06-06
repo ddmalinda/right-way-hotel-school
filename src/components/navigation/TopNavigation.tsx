@@ -3,24 +3,25 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import SingleNav from './navbar/SingleNav';
 import ApplyNowButton from '../common/buttons/ApplyNowButton';
+import { linkPath } from '../../path/LinkPath';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 
 let navLink=[
     {
         title:'About Us',
-        path:''
+        path:linkPath.aboutUs,
     },
     {
         title:'Course Details',
-        path:''
+        path:linkPath.courseDetails,
     },
     {
         title:'Student Detials',
-        path:''
+        path:linkPath.studentDetails
     },
     {
         title:'Stuff',
-        path:''
+        path:linkPath.stuff
     },
 ]
 function TopNavigation() {
@@ -35,7 +36,7 @@ function TopNavigation() {
             <div className='ml-auto'>
 
           <Nav >
-            <div className="grid justify-items-center m-4 lg:flex">
+            <div className="grid m-4 justify-items-center lg:flex">
             {navLink.map((val, key) => (
                 <div className='mr-10' key={key} > 
                 <SingleNav   title={val.title} />

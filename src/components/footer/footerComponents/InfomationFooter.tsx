@@ -30,14 +30,14 @@ type Props = {
 }
 export default function InfomationFooter({ footerDataLinks, footerDataIcons }: Props) {
   return (
-    <div className=" bg-[#2E3A5F] text-white p-5">
-      <div className="container mx-auto sm:grid lg:flex ">
-        <div className="w-1/3 mx-auto justify-items-center">
+    <div className=" bg-[#2E3A5F] text-white">
+      <div className="container pt-5 mx-auto lg:flex ">
+        <div className="py-2 mx-auto lg:w-1/3 lg:justify-items-center">
           <img className="sm:w-auto md:w-3/4 lg:w-3/4 xl:w-3/4 2xl:w-3/4 rounded-3" src="/assets/logo2.png" alt="Logo" />
         </div>
-        <div className="w-2/3 mx-auto lg:flex ">
+        <div className="space-y-5 sm:p-2 lg:mx-auto lg:w-1/2 lg:flex">
           <FooterDataLinks footerDataLinks={footerDataLinks} />
-          <div className="w-1/2 mx-auto">
+          <div className="mx-auto lg:w-2/3 ">
             <FooterDataIcons footerDataIcons={footerDataIcons} />
           </div>
         </div>

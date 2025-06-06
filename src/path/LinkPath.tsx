@@ -10,9 +10,9 @@ const linkPath ={
   stuff:'/stuff',
 
   //website links
-  facebook:'/',
-  whatsApp:'/',
-  linkedIn:'/',
+  facebook:'https://web.facebook.com/profile.php?id=61566933521835',
+  whatsApp:'https://web.facebook.com/profile.php?id=61566933521835',
+  linkedIn:'https://web.facebook.com/profile.php?id=61566933521835',
 
 
 }

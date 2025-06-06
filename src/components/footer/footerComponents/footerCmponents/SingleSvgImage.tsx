@@ -17,7 +17,7 @@ export default function SingleSvgImage({ iconData }: Props) {
           ))}
         </svg>
       ) : typeof iconData === "string" && iconData ? (
-        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF">
+        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#FFFFFF">
           <path d={iconData}/></svg>
 
       ) : null}

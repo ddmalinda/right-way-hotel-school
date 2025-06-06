@@ -5,7 +5,7 @@ export default function Homepage() {
   return (
     <div>
      <CommoneWrapLayout>
-adasda
+      sxsacsc
      </CommoneWrapLayout>
     </div>
   )

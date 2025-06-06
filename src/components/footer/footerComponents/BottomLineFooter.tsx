@@ -6,7 +6,7 @@ export default function BottomLineFooter() {
             </div>
             <div className='flex justify-center mx-auto text-xs text-white sm:text-sm md:text-base'>
                 Design & Develop 
-                <a className='text-[#DA8A24] ml-2'>
+                <a  style={{ textDecoration: 'none', color: '#DA8A24' ,marginLeft:'10px'}}>
                     Dasith Dilina Malinda
                 </a>
             </div>

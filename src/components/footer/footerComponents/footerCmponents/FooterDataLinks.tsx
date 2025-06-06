@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import SmallTitle from '../../../common/titles/SmallTitle';
 
 type Props={
@@ -16,15 +17,17 @@ type FooterLink = {
 
 export default function FooterDataLinks({footerDataLinks}:Props) {
   return (
-   <div className="w-1/2 mx-auto">
+   <div className="lg:x-auto :w-1/2">
                {footerDataLinks.map((val, key) => {
                  return (
                    <div key={key}>
                      <SmallTitle title={val.title} />
                      {val.links.map((items) => {
                        return (
-                         <div>
+                         <div className='hover:'>
+                          <Link to={items.link} style={{ textDecoration: 'none', color: 'inherit' ,marginRight:'10px'}}>
                            {items.text}
+                          </Link>
                          </div>
                        )
                      })}
