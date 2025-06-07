@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+
 import SmallTitle from '../../../common/titles/SmallTitle';
 import SingleSvgImage from './SingleSvgImage'
 
@@ -33,7 +33,6 @@ export default function FooterDataIcons({footerDataIcons}: Props) {
                       {val.links.map((items, idx) => (
                         <div className="flex mx-auto space-x-2 space-y-2" key={idx}>
                           <div>
-                            
                             <SingleSvgImage iconData={items.icon}/>
                           </div>
                           <div>
@@ -51,7 +50,9 @@ export default function FooterDataIcons({footerDataIcons}: Props) {
                             <div className="flex mx-auto " key={key}>
                               <div>
                                <a href={items.link} target="blank" rel="noopener noreferrer">
+                           
                                 <SingleSvgImage iconData={items.icon}/>
+                               
                                 </a>
                               </div>
                             </div>
