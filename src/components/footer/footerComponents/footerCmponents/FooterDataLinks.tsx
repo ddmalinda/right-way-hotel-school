@@ -22,9 +22,9 @@ export default function FooterDataLinks({footerDataLinks}:Props) {
                  return (
                    <div key={key}>
                      <SmallTitle title={val.title} />
-                     {val.links.map((items) => {
+                     {val.links.map((items,key) => {
                        return (
-                         <div className='hover:'>
+                         <div key={key} className='hover:'>
                           <Link to={items.link} style={{ textDecoration: 'none', color: 'inherit' ,marginRight:'10px'}}>
                            {items.text}
                           </Link>
