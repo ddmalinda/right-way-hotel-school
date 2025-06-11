@@ -38,18 +38,20 @@ function TopNavigation() {
         <Navbar.Collapse id="basic-navbar-nav " >
             <div className='ml-auto'>
           <Nav >
-            <div className="grid m-4 justify-items-center font-poppins lg:flex">
+            <div className="grid lg:m-4 justify-items-center font-poppins lg:flex">
             {navLink.map((val, key) => (
-                <div className='mr-10' key={key} > 
+                <div className='lg:mr-10 sm:mt-2' key={key} > 
                 <Link to={val.path} style={{ textDecoration: 'none', color: 'inherit' ,marginRight:'10px'}}>
                 <SingleNav title={val.title} />
                 </Link>
                 </div>
             ))}
           </div>
+            <div className='flex mx-auto justify-items-center'>
+              <ApplyNowButton styles='px-8 py-2  '/>{/** Apply Button */}
+            </div>
           </Nav>
             </div>
-          <ApplyNowButton styles='px-8 py-2 '/>{/** Apply Button */}
         </Navbar.Collapse>
       </Container>
     </Navbar>

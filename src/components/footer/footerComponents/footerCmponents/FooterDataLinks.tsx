@@ -24,7 +24,7 @@ export default function FooterDataLinks({footerDataLinks}:Props) {
                      <SmallTitle title={val.title} />
                      {val.links.map((items,key) => {
                        return (
-                         <div key={key} className='hover:'>
+                         <div key={key} className='hover:text-cOrange'>
                           <Link to={items.link} style={{ textDecoration: 'none', color: 'inherit' ,marginRight:'10px'}}>
                            {items.text}
                           </Link>

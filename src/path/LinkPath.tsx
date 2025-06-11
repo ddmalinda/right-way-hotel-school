@@ -20,4 +20,8 @@ const linkPath ={
 
 
 }
-export{linkPath}
+
+const videoLinks = {
+  ytvideo: 'https://www.youtube.com/embed/b_MHVahz8pk',
+}
+export{linkPath,videoLinks}

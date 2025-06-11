@@ -12,7 +12,7 @@ export default function CommoneWrapLayout({ children }: Props) {
             <div className="top-0">
                 <TopNavigation />
             </div>
-            <div className="container min-h-screen">
+            <div className="min-h-screen ">
                 {children}
             </div>
             <div>
