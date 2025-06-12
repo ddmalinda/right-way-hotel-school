@@ -2,7 +2,6 @@ import SubMainTitle from "../../components/common/titles/SubMainTitle";
 import SubTitle from "../../components/common/titles/SubTitle";
 import { linkPath } from "../../path/LinkPath";
 import CourseDetailsCardList from "./courseDetails/CourseDetailsCardList";
-import SingleCourseDetailsCard from "./courseDetails/CourseDetailsCardList";
 
 let courseDetails = [
     {

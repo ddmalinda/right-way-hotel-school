@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Homepage from "./pages/Homepage"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { linkPath, pagesLinkpath } from "./path/LinkPath";
+import { pagesLinkpath } from "./path/LinkPath";
 
 
 
