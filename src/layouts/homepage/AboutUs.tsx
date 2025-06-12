@@ -6,32 +6,25 @@ import SubTitle from '../../components/common/titles/SubTitle'
 import RightSideAbouUs from './aboutUs/RightSideAbouUs'
 import LeftSideAbouUs from './aboutUs/LeftSideAbouUs'
 
-let textList = [
-  {
-    text:"Learn from expert chefs and hospitality professionals",
-  },
-   {
-    text:"Earn an NVQ 4 certificate with 6 months of real-world training",
-  },
-   {
-    text:"Open doors to rewarding careers in hotels and bakeries",
-  },
-]
-let misisionText = [
-  { text: 'Industry-aligned curriculum' },
-  { text: 'Experienced faculty from top hotels' },
-  { text: 'State-of-the-art training facilities' },
-  { text: 'Strong industry partnerships' },
+type TextList={
+  text:string;
+}
 
-]
+type MisisionText={
+  text:string;
+}
+type Props={
+  textList:TextList[];
+  misisionText:MisisionText[];
+}
 
-export default function AboutUs() {
+export default function AboutUs({textList,misisionText}:Props) {
   return (
     <div className={'container py-15'}>
-      <div className='flex justify-center mx-auto'>
+      <div>
         <SubTitle title='About Us' />
       </div>
-      <div className='flex justify-center mx-auto'>
+      <div>
         <SubMainTitle title='Who are Right Way' />
       </div>
       <div className='lg:flex sm:grid'>

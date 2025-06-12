@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import SingleNav from './navbar/SingleNav';
 import ApplyNowButton from '../common/buttons/ApplyNowButton';
-import { linkPath } from '../../path/LinkPath';
+import { linkPath, pagesLinkpath } from '../../path/LinkPath';
 import { Link } from 'react-router-dom';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 
@@ -30,7 +30,7 @@ function TopNavigation() {
     <Navbar expand="lg" className="bg-white shadow">
       <Container>
        <div className="flex-shrink-0">
-        <Link to={linkPath.homePage}>
+        <Link to={pagesLinkpath.homePage}>
             <img className="h-12" src="/assets/logo2.png" alt="Logo" />
         </Link>
           </div>

@@ -1,4 +1,4 @@
-import { linkPath, videoLinks } from "../../../path/LinkPath";
+import { linkPath } from "../../../path/LinkPath";
 
 export default function BottomRightSideAbouUs() {
   return (
@@ -6,7 +6,7 @@ export default function BottomRightSideAbouUs() {
       <iframe
         width="600"
         height="300"
-        src={videoLinks.ytvideo}
+        src={linkPath.ytvideo}
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
