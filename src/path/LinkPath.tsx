@@ -32,6 +32,12 @@ const linkPath ={
     course2:'/courseDetails/pastry&Bakery',
     course3:'/courseDetails/cakeStructuring',
 
+    //StuffDetails section in homepage
+    stuff1:'/stuff/01',
+    stuff2:'/stuff/01',
+    stuff3:'/stuff/01',
+
+
 }
 
 
