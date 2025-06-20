@@ -15,11 +15,11 @@ type DataArry={
 
 export default function CourseDetailsCardList({courseDetails}:Props) {
     return (
-        <div className="flex flex-col lg:justify-between lg:flex-row ">
+        <div className="flex max-[900px]:flex-col lg:justify-between min-[900px]:flex-row ">
             
             {courseDetails.map((val, key) => {
                 return (
-                    <div key={key} className="pb-3 transition duration-200 border-gray-400 shadow max-[600px]:m-5 lg:w-3/10 shadow-gray-700 border-1 rounded-2xl hover:scale-110">
+                    <div key={key} className="transition duration-200 border-gray-400 shadow max-[900px]:m-5 min-lg:w-3/10 shadow-gray-700 border-1 rounded-2xl hover:scale-110">
                         
                           {/* Link to page */ }
                     <Link to={val.link} style={{ textDecoration: 'none', color: 'inherit'}}>

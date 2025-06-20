@@ -6,24 +6,24 @@ type Props = {
 }
 export default function SingleSilder({ image }: Props) {
     return (
-            <div className="w-full lg:h-[800px] md:h-[700px] max-[600px]:h-[400px]"
+            <div className="w-full "
                 style={{ backgroundImage: `url(${image})`, backgroundSize: 'cover' }}
             >
             <div className='container flex mx-auto'>
-                <div className=' max-[600px]:ml-3 sm:mt-4 lg:w-1/2 lg:mt-20 '>
+                <div className='max-[900px]:w-full max-sm:ml-3 min-[900px]:w-1/2 max-md:my-10 min-md:my-20'>
                 
                    <BigTitle title='Master Cookery' color={"text-white"}/>
                    <BigTitle title='& Bakery in' color={"text-white"}/>
-                   <BigTitle title='6 Months' color={"text-[#FFC371]"}/>
-                   <div className='w-4/5 font-light text-white max-[600px]:text-xl lg:text-3xl font-poppins'>
+                   <BigTitle title='6 Months' color={"text-clightOrange"}/>
+                   <div className='w-4/5 font-light text-white max-sm:text-xl min-sm:text-3xl font-poppins'>
                     <p>Unlock career opportunities with professional training & NVQ 4 certification</p>
                    </div>
-                   <div className='flex  lg:gap-15 lg:justify-start max-[600px]:justify-between '>
-                    <ApplyNowButton styles='lg:px-10 lg:py-6 max-[600px]:px-3 max-[600px]:py-2 max-[600px]:text-xl lg:text-4xl flex font-[700] '/>
+                   <div className='flex flex-row lg:gap-15 min-lg:justify-start max-sm:justify-between min-sm:justify-between '>
+                    <ApplyNowButton styles='lg:px-10 lg:py-6 max-sm:px-4 max-sm:py-4 max-sm:text-xl  text-4xl flex font-[700] min-sm:py-4 min-sm:px-5'/>
                     <WatchVideoButton/>
                    </div>
                 </div>
-                <div  className='lg:w-1/2 sm:hidden'>
+                <div  className='min-[900px]:w-1/2 max-[900px]:hidden '>
 
                 </div>
             </div>

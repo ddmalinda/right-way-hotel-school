@@ -38,7 +38,7 @@ function TopNavigation() {
         <Navbar.Collapse id="basic-navbar-nav " >
             <div className='ml-auto'>
           <Nav >
-            <div className="grid lg:m-4 justify-items-center font-poppins lg:flex">
+            <div className="max-md:flex-col lg:gap-5 justify-items-center font-poppins lg:flex">
             {navLink.map((val, key) => (
                 <div className='lg:mr-10 sm:mt-2' key={key} > 
                 <Link to={val.path} style={{ textDecoration: 'none', color: 'inherit' ,marginRight:'10px'}}>

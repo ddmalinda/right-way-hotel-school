@@ -43,9 +43,8 @@ export default function Homepage() {
       stuff
       <hr/>
       Student life &syccess Stories 
-       <hr/>
+      <hr/>
       contact us
-
      </CommoneWrapLayout>
     </div>
   )

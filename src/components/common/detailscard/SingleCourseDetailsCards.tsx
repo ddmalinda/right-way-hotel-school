@@ -21,12 +21,12 @@ export default function SingleCourseDetailsCards({image,name,description,duratio
                         </div>
                         
                           {/* Discription */ }
-                        <div className="w-3/4 mx-auto my-1 text-2xl text-center font-poppins text-cGray">
+                        <div className="w-3/4 mx-auto my-1 center text- font-poppins text-cGray">
                             {description}
                         </div>
                         
                           {/* other details */ }
-                        <div className="w-3/4 mx-auto my-1 text-2xl text-start font-poppins text-cGray">
+                        <div className="w-3/4 mx-auto my-1 text-start font-poppins text-cGray">
                            <span className="font-semibold">Duration:</span> {duration}
                             <br />
                             <span className="font-semibold">Modules:</span> {modules}

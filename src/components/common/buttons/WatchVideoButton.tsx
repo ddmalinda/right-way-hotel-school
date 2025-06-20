@@ -9,10 +9,9 @@ export default function WatchVideoButton() {
       <button
         onClick={() => setOpen(true)}
       >
-        <div  className="flex items-center lg:px-3 lg:py-3 lg:text-4xl max-[600px]:text-xl max-[600px]:px-2 text-white transition duration-200 border-2 border-white shadow-2xl  rounded-4 font-poppins font-[700] hover:bg-cBlue" >
-        <svg xmlns="http://www.w3.org/2000/svg" className="md:w-[60px] md:h-[60px] max-[600px]:w-[40px] max-[600px]:h-[40px]" viewBox="0 -960 960 960" fill="#FFFFFF"><path d="M304.09-178.5v-609L783.22-483 304.09-178.5Zm77.3-304.5Zm0 163.37L639.33-483 381.39-646.37v326.74Z"/></svg>
+        <div  className='flex items-center lg:px-3 lg:py-3 lg:text-4xl max-lg:py-2 max-lg:px-5 max-lg:text-4xl bg-black/40 max-sm:text-xl max-sm:rounded-xl sm:rounded-2xl max-sm:px-2 text-white transition duration-200 border-2 border-white shadow-2xl   font-poppins font-[700] hover:bg-cBlue' >
+        <svg xmlns="http://www.w3.org/2000/svg" className="md:w-[60px] md:h-[60px] max-md:w-[50px] max-md:h-[50px]  max-sm:w-[40px] max-sm:h-[40px]" viewBox="0 -960 960 960" fill="#FFFFFF"><path d="M304.09-178.5v-609L783.22-483 304.09-178.5Zm77.3-304.5Zm0 163.37L639.33-483 381.39-646.37v326.74Z"/></svg>
         Watch Now 
-          
         </div>
       </button>
       {open && (
