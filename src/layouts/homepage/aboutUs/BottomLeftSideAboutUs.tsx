@@ -8,7 +8,7 @@ type TypeText={
 }
 export default function BottomLeftSideAboutUs({misisionText}:Props) {
   return (
-    <div className="space-y-3 lg:w-1/2 ">
+    <div className="mt-5 space-y-3 lg:w-1/2">
       <div className="lg:text-3xl text-xl font-plusjak  font-[700] my-1 text-cBlue">
         Our Mission
       </div>
