@@ -16,6 +16,16 @@ module.exports = {
         'Porange': '#DA8A24',
         'Pblue': '#2E3A5F',
       },
+
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      animation: {
+        marquee: 'marquee 20s linear infinite',
+      },
     },
   },
   plugins: [],

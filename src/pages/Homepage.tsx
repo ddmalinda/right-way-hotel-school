@@ -4,6 +4,7 @@ import CourseDetails from '../layouts/homepage/CourseDetails';
 
 
 import CustomSlider from '../layouts/homepage/CustomSlider'
+import StudentStories from '../layouts/homepage/StudentStories';
 import Stuff from '../layouts/homepage/Stuff';
 
 const sliderImage = [
@@ -41,8 +42,7 @@ export default function Homepage() {
       <AboutUs textList={textListAboutUs} misisionText={misisionTextAboutUs}/>
       <CourseDetails/>
      <Stuff/>
-      <hr/>
-      Student life &syccess Stories 
+      <StudentStories/>
       <hr/>
       contact us
      </CommoneWrapLayout>
