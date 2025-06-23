@@ -48,7 +48,7 @@ export default function FooterDataIcons({footerDataIcons}: Props) {
                         < div className="flex lg:w-1/2">
                           {val.links.map((items, key) => (
                             <div className="flex mx-auto " key={key}>
-                              <div>
+                              <div className='transition duration-200 hover:scale-130'>
                                <a href={items.link} target="blank" rel="noopener noreferrer">
                            
                                 <SingleSvgImage iconData={items.icon}/>
